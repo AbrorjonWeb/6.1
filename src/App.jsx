@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logo from "./assets/logo.svg";
+import play from "./assets/logos.svg";
 import "./App.css";
 
 function App() {
@@ -38,8 +39,7 @@ function App() {
             </p>
             <div>
               <button>Our Process</button>
-              <button></button>
-              <p>See How It Works</p>
+              <button>See How It Works</button>
             </div>
           </div>
           <div className="main_input">
@@ -59,6 +59,42 @@ function App() {
               />
             </label>
             <button>Get Started</button>
+          </div>
+        </div>
+        <div className="trust">
+          <h6>Trusted By Over 100+ Startups and freelance business</h6>
+          <img src="" alt="" />
+          <h3>Believing neglected so so allowance</h3>
+          <p>
+            We so opinion friends me message as delight. Whole front do of plate
+            heard oh ought. His defective nor convinced residence own.
+          </p>
+          <button>We so opinion friends me message as delight.</button>
+        </div>
+        <div className="cards">
+          <div>
+            <h6 className="title_card">Led Ask Possible Mistress</h6>
+            <p className="text_card">
+              Connection has put impossible own apartments boisterous. At
+              jointure ladyship an insisted so humanity he. Friendly bachelor
+              entrance to on by.
+            </p>
+          </div>
+          <div>
+            <h6 className="title_card">Led Ask Possible Mistress</h6>
+            <p className="text_card">
+              Connection has put impossible own apartments boisterous. At
+              jointure ladyship an insisted so humanity he. Friendly bachelor
+              entrance to on by.
+            </p>
+          </div>
+          <div>
+            <h6 className="title_card">Led Ask Possible Mistress</h6>
+            <p className="text_card">
+              Connection has put impossible own apartments boisterous. At
+              jointure ladyship an insisted so humanity he. Friendly bachelor
+              entrance to on by.
+            </p>
           </div>
         </div>
       </div>
